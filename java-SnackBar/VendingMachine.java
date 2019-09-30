@@ -8,7 +8,6 @@ public class VendingMachine
 	private String name;
 
 	// constructor
-	// initial state of the object
 	public VendingMachine(String name)
 	{
 		maxId++;
