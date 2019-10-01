@@ -50,14 +50,14 @@ public class Customer
     {
         cash = cash - totalCost;
     }
-    
+
     // Object
     @Override
     public String toString()
     {
         String rtnString = "id: " + id + "\n" +
                            "name: " + name + "\n" +
-                           "cash: " + cash + "\n"
+                           "cash: " + cash + "\n";
         return rtnString;
     }
 }

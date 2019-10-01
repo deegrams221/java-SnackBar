@@ -59,6 +59,11 @@ public class Snack
 		return cost;
 	}
 
+	public void addQuantity(int newQuantity)
+    {
+        quantity = quantity + newQuantity;
+    }
+
 	public void setVendingMachineId(int vendingMachineId)
 	{
 		this.vendingMachineId = vendingMachineId;
