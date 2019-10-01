@@ -1,4 +1,4 @@
-package java-SnackBar;
+package snackBar;
  
 public class Snack
 {
@@ -73,11 +73,11 @@ public class Snack
 	@Override
 	public String toString()
 	{
-		String rtnStr = "id: " + id + "\n" +
-						"name: " + name + "\n" +
-						"quantity: " + quantity + "\n" +
-						"cost: " + cost + "\n" +
-						"vendingMachineId: " + vendingMachineId + "\n";
-		return rtnStr;
+		String rtnString = "id: " + id + "\n" +
+							"name: " + name + "\n" +
+							"quantity: " + quantity + "\n" +
+							"cost: " + cost + "\n" +
+							"vendingMachineId: " + vendingMachineId + "\n";
+		return rtnString;
 	}
 }

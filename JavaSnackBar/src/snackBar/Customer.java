@@ -1,4 +1,4 @@
-package java-SnackBar;
+package snackBar;
 
 public class Customer
 {
@@ -7,9 +7,10 @@ public class Customer
     private int id;
     private String name;
     private double cash;
+    
 
     // constructor
-    public Customer(Sring name, double cash)
+    public Customer(String name, double cash)
     {
         maxId++;
 
@@ -49,13 +50,14 @@ public class Customer
     {
         cash = cash - totalCost;
     }
-
+    
     // Object
-//     @Override
-//     public String toString()
-//     {
-//         String rtnStr = "id: " + id + "\n" +
-//                         "name: " + name + "\n" +
-//                         "cash: " + cash + "\n"
-//     }
-// }
+    @Override
+    public String toString()
+    {
+        String rtnString = "id: " + id + "\n" +
+                           "name: " + name + "\n" +
+                           "cash: " + cash + "\n"
+        return rtnString;
+    }
+}

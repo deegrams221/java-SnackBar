@@ -1,4 +1,4 @@
-package java-SnackBar;
+package snackBar;
 
 public class VendingMachine
 {
@@ -23,7 +23,7 @@ public class VendingMachine
 		return id;
 	}
 
-	public void setName(Sting name)
+	public void setName(String name)
 	{
 		this.name = name;
 	}
